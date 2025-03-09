@@ -6,7 +6,7 @@ serve(async (req) => {
   
   // 处理 API 请求
   if (url.pathname.startsWith('/api/')) {
-    const targetUrl = new URL(url.pathname + url.search, 'http://你的后端域名');
+    const targetUrl = new URL(url.pathname + url.search, 'http://jzdk.333909.xyz');
     return await fetch(targetUrl, {
       method: req.method,
       headers: req.headers,

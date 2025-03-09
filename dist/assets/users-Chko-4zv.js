@@ -1,0 +1,1 @@
+import{s as r}from"./_plugin-vue_export-helper-COv-dAod.js";const a=()=>r({url:"/api/admin/users",method:"get"}),u=e=>r({url:"/api/admin/users",method:"post",data:e}),d=(e,s)=>r({url:`/api/admin/users/${e}`,method:"put",data:s}),n=e=>r({url:`/api/admin/users/${e}`,method:"delete"});export{u as c,n as d,a as g,d as u};

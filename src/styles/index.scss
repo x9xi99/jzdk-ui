@@ -1,0 +1,37 @@
+// Element Plus 暗色主题变量
+@use 'element-plus/theme-chalk/dark/css-vars.css';
+
+// 全局样式
+:root {
+  --ep-color-primary: #409EFF;
+}
+
+// Element Plus 组件样式覆盖
+.el-menu {
+  border-right: none !important;
+  
+  .el-menu-item {
+    &.is-active {
+      background-color: #263445 !important;
+    }
+    
+    &:hover {
+      background-color: #263445 !important;
+    }
+  }
+}
+
+.el-table {
+  --el-table-border-color: #e6e6e6;
+  --el-table-header-bg-color: #f5f7fa;
+}
+
+.el-dialog {
+  --el-dialog-padding-primary: 20px;
+  border-radius: 4px;
+  
+  .el-dialog__header {
+    margin-right: 0;
+    border-bottom: 1px solid var(--el-border-color-lighter);
+  }
+} 
